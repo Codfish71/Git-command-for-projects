@@ -1,0 +1,13 @@
+## Creating New Repository
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Codfish71/Bug-Bounty-checklist.git
+git push -u origin master
+
+
+## Push changes to previously created repo
+git remote add origin https://github.com/Codfish71/Bug-Bounty-checklist.git
+git branch -M master
+git push -u origin master
